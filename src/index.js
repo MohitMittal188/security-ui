@@ -2,12 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Login from './Login';
 import reportWebVitals from './reportWebVitals';
 // https://www.powerupcloud.com/securing-spring-boot-and-react-js-with-spring-security-using-jwt-authentication/
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
